@@ -1,0 +1,925 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A briefe instruction, collected for the exercise of youth, and simple sort of people. / By Thomas Cobhead preacher..</title>
+            <author>Cobhead, Thomas.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1579</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 35 KB of XML-encoded text transcribed from 20 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2014-11">2014-11 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">B01079</idno>
+            <idno type="STC">STC 5455</idno>
+            <idno type="STC">ESTC S96008</idno>
+            <idno type="EEBO-CITATION">56572825</idno>
+            <idno type="OCLC">ocm 56572825</idno>
+            <idno type="VID">180931</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. B01079)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 180931)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 2145:13)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A briefe instruction, collected for the exercise of youth, and simple sort of people. / By Thomas Cobhead preacher..</title>
+                  <author>Cobhead, Thomas.</author>
+               </titleStmt>
+               <extent>[38] p.   </extent>
+               <publicationStmt>
+                  <publisher>by Thomas Newton.,</publisher>
+                  <pubPlace>Imprinted at London :</pubPlace>
+                  <date>[1579].</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Publication date from last page.</note>
+                  <note>Signatures: A-B⁸ C³.</note>
+                  <note>Imperfect: cropped and stained, B₆ torn, with loss of text.</note>
+                  <note>Reproduction of original in: Bodleian Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Catechisms, English --  Early works to 1800.</term>
+               <term>Theology, Doctrinal --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2013-05</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2013-05</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2013-07</date>
+            <label>Ali Jakobson</label>Sampled and proofread</change>
+         <change>
+            <date>2013-07</date>
+            <label>Ali Jakobson</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2014-03</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:180931:1"/>
+            <pb facs="tcp:180931:1" rendition="simple:additions"/>
+            <p>
+               <g ref="char:leaf">❧</g> A BRIEFE Inſtruction, <hi>Collected for the</hi> ex<g ref="char:EOLhyphen"/>erciſe of youth, and ſim<g ref="char:EOLhyphen"/>
+               <hi>ple ſort of people.</hi>
+            </p>
+            <p>
+               <g ref="char:leaf">❧</g> 
+               <hi>By</hi> Thomas Cobhead Preacher.</p>
+            <p>
+               <hi>Imprinted at Lon<g ref="char:EOLhyphen"/>don by</hi> Thomas Newton.</p>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb facs="tcp:180931:2" rendition="simple:additions"/>
+            <pb facs="tcp:180931:2"/>
+            <head>
+               <hi>A briefe Inſtruction, collected for the exerciſe of youth,</hi> and ſimple ſort of people.</head>
+            <sp>
+               <speaker>Demaund.</speaker>
+               <p>
+                  <seg rend="decorInit">H</seg>Ow waſt y<hi rend="sup">u</hi> created?</p>
+            </sp>
+            <sp>
+               <speaker>Aunſwer.</speaker>
+               <p>By the hande of God. <note place="margin">Gene. 1. 26.</note>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Demaund.</speaker>
+               <p>
+                  <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>herof waſt thou created?</p>
+            </sp>
+            <sp>
+               <speaker>Aunſwer.</speaker>
+               <p>Of the duſt of the grounde. <note place="margin">Gene. 2. 7.</note>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Demaund.</speaker>
+               <p>What doeſt thou learne therby?</p>
+            </sp>
+            <sp>
+               <speaker>Aunſwer.</speaker>
+               <p>That I ſhould not waxe proude <note place="margin">Eccl. 10. 7. Iere. 9. 23. Iere. 22. 29</note> of the Image of God: but that all vaine glory ſhoulde be cut away in mee. &amp;c. For ſo much as I ſhall re<g ref="char:EOLhyphen"/>turne <note place="margin">Gene. 3. 19.</note> to the earth againe.</p>
+            </sp>
+            <sp>
+               <speaker>Demaund.</speaker>
+               <p>What is God?</p>
+            </sp>
+            <sp>
+               <speaker>Aunſwer.</speaker>
+               <pb facs="tcp:180931:3"/>
+               <p> He is almightye, creator of all things, incomprehenſible, inuiſible, eternall, preſeruer and gouernour of heauen and earth. &amp;c.</p>
+            </sp>
+            <sp>
+               <speaker>Demaund.</speaker>
+               <p>Shewe wytneſſe of the vnitie of God?</p>
+            </sp>
+            <sp>
+               <speaker>Aunſwer.</speaker>
+               <p>Heare Iſraell, thy Lorde God is <note place="margin">Deut. 6.</note> one Lorde: and againe. I am the Lorde, firſt and the laſt, beſyde mee <note place="margin">Eſa. 44. 1. Cor. 8. Ephe. 4.</note> there is no God.</p>
+            </sp>
+            <sp>
+               <speaker>Demaund.</speaker>
+               <p>Howe many perſons of the God<g ref="char:EOLhyphen"/>head be there?</p>
+            </sp>
+            <sp>
+               <speaker>Aunſwer.</speaker>
+               <p>There is only one godly ſubſta<g ref="char:cmbAbbrStroke">̄</g>ce, but it is attributed vnto three per<g ref="char:EOLhyphen"/>ſons, that is to ſaye, the Father, the <note place="margin">Gene. 1. 26. Iohn. 1. 1. cap. 10. 30.</note> Sonne, and the holy Ghoſt, which be of one ſubſtaunce, lyke vnmeaſu<g ref="char:EOLhyphen"/>rable, and like euerlaſting.</p>
+            </sp>
+            <sp>
+               <speaker>Demaund.</speaker>
+               <p>Howe proueſt thou that there be<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+                  <pb facs="tcp:180931:3"/> three perſons?</p>
+            </sp>
+            <sp>
+               <speaker>Aunſwer.</speaker>
+               <p>Chriſte commaunded all people <note place="margin">Mark. 16. Math. 3. Iohn. 14. et. 15. 1. Iohn. 5.</note> to bee Baptiſed in the name of the Father, and of the ſonne, and of the holy ghoſt.</p>
+            </sp>
+            <sp>
+               <speaker>Demaund.</speaker>
+               <p>What is the Father?</p>
+            </sp>
+            <sp>
+               <speaker>Aunſwer.</speaker>
+               <p>He is the fyrſt perſon of the god<g ref="char:EOLhyphen"/>head, <note place="margin">Ephe. 4. 6.</note> euerlaſting, vnmeaſurable, vnbegotten, and hauing his being of no man.</p>
+            </sp>
+            <sp>
+               <speaker>Demaund.</speaker>
+               <p>Who is the Sonne?</p>
+            </sp>
+            <sp>
+               <speaker>Aunſwer.</speaker>
+               <p>He is the ſeconde perſon in god<g ref="char:EOLhyphen"/>head, <note place="margin">Gene. 1. Iohn. 1. Iohn. 17. 5. cap. 6. 62. Coll. 1. 15. <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>. 15. <abbr>vſ</abbr>.</note> begotten of his father, before the worlde.</p>
+            </sp>
+            <sp>
+               <speaker>Demaund.</speaker>
+               <p>What is the holy Ghoſt?</p>
+            </sp>
+            <sp>
+               <speaker>Aunſwer.</speaker>
+               <p>He is the thyrde perſon in god<g ref="char:EOLhyphen"/>head, <note place="margin">Math. 3. 16 Ioh. 14. 26. cap. 16. 7.</note> lyke euerlaſting, and lyke in
+<pb facs="tcp:180931:4"/> ſubſtaunce, vnto the Father, and the Sonne, proceeding from them both.</p>
+            </sp>
+            <sp>
+               <speaker>Demaund.</speaker>
+               <p>Why dyd God create thee?</p>
+            </sp>
+            <sp>
+               <speaker>Anuſwer.</speaker>
+               <p>To ſerue him. <note place="margin">Eſai. 44. 21</note>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Demaund.</speaker>
+               <p>What ſeruice requireth he of thee?</p>
+            </sp>
+            <sp>
+               <speaker>Aunſwer.</speaker>
+               <p>To ſerue him in ſpirite, &amp; trueth. <note place="margin">Iohn. 4. 23</note>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Demaund.</speaker>
+               <p>In howe many partes, maye the ſeruice of God be deuided?</p>
+            </sp>
+            <sp>
+               <speaker>Aunſwer.</speaker>
+               <p>Into ſowre partes.</p>
+            </sp>
+            <sp>
+               <speaker>Demaund.</speaker>
+               <p>Which be they?</p>
+            </sp>
+            <sp>
+               <speaker>Aunſwer.</speaker>
+               <p>Obedience to the worde of God, <note place="margin">Iohn. 8. 47 Eſai. 1. 19. Deut. 6. 1. Re. 15. 22</note> to heare it, and to keepe it.</p>
+               <p>The ſeconde part, is prayer, by the which we worſhippe God, and <note place="margin">Pſa. 50. 15. Mat. 6. et. 7 Luk. 18. Pſa. 141. 2. Pſa. 148. 13 Pſa. 51. 15. Rom. 12. 1. Hebr. 13. 1. Pete. 2. 5. Pſa. 116. 11 et. 12. <abbr>vſ</abbr>.</note> call vpon him for all things.</p>
+               <pb facs="tcp:180931:4" rendition="simple:additions"/>
+               <p> The thirde, is the Sacrifyce of praiſe, from a faithfull hart, for the Lord requyreth nothing of vs, for all his benefytes beſtowed vppon vs: but to be thankful, calling vpon his name, and obey his worde.</p>
+               <p>The fowrth parte, of the ſeruice <note place="margin">Pſal. 2. 11. Leuit. 26. 2. Eccle. 4. 17 Iere. 7. 9. Dau. 9. 10. Exo. 17. 11 Hebr. 5. 7.</note> of God, is the humble ſubmiſſion of the ſpyrite, with ſaythfull reue<g ref="char:EOLhyphen"/>rence, and feare: for there is neither true obedience, true inuocation, nor yet true Sacrifice of prayſe, where the ſubmiſſion of the ſpirite is wanting.</p>
+            </sp>
+            <sp>
+               <speaker>Demaund.</speaker>
+               <p>What are the Lawes of God?</p>
+            </sp>
+            <sp>
+               <speaker>Aunſwer.</speaker>
+               <p>GOD ſpake all theſe words, and <note place="margin">Exod. 20. 1.</note> ſayde, I am the Lorde thy God, which haue brought thee out of the Land of Egipt, out out of the houſe of bondage.</p>
+               <p n="1">1 Thou ſhalt haue none other Gods but mee.</p>
+               <pb facs="tcp:180931:5"/>
+               <p> Thou ſhalt not make to thy ſelfe any grauen Image, nor the lyke<g ref="char:EOLhyphen"/>neſſe of any thing that is in heauen aboue, or in the earth beneath, nor in the water vnder the earth, thou ſhalt not bow downe to them, nor worſhip them. For I the Lord thy God am a gelious God, and viſit the ſinnes of the Fathers vpon the chyldren, vnto the thyrde &amp; fourth generation of them that hate mee: And ſhew mercie vnto thouſands, in them that loue mee and keepe my commaundements.</p>
+               <p n="3">3 Thou ſhalt not take the name of the Lorde thy God in vaine: For the Lord wyll not holde him guilt<g ref="char:EOLhyphen"/>leſſe, that taketh his name in vaine.</p>
+               <p n="4">4 Remember thou keepe holy the Sabboth day: Sixe dayes ſhalt thou labour, and doo all that thou haſt to doo. But the ſeuenth day, is the Sabboth of the Lord thy God: In it thou ſhalt doo no manner of
+<pb facs="tcp:180931:5" rendition="simple:additions"/> worke, thou and thy ſonne, and thy Daughter, thy man ſeruaunt, and thy mayde ſeruaunt, thy Cattell, and the Straunger that is within thy gates. For in ſixe dayes the Lorde made heauen and earth: the Sea, and all that in them is, and reſted the ſeuenth daye: wherfore the Lorde bleſſed the ſeuenth daye, and hallowed it.</p>
+               <p n="5">5 Honour thy Father, and Mo<g ref="char:EOLhyphen"/>ther, that thy dayes maye be long in the Lande, which the Lorde thy God geueth thee.</p>
+               <p n="6">6 Thou ſhalt do no murther.</p>
+               <p n="7">7 Thou ſhalt not committe adul<g ref="char:EOLhyphen"/>trie.</p>
+               <p n="8">8 Thou ſhalt not ſteale.</p>
+               <p n="9">9 Thou ſhalt not beare falſe wit<g ref="char:EOLhyphen"/>neſſe againſt thy neyghbour.</p>
+               <p n="10">10 Thou ſhalte not deſyre thy neyghbours houſe, thou ſhalt not couet thy neyghbours wyfe, nor <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> ſeruaunt, nor his mayde, nor
+<pb facs="tcp:180931:6" rendition="simple:additions"/> his oxe, nor his aſſe, nor any thing that is thy neyghbours.</p>
+            </sp>
+            <sp>
+               <speaker>Demaund.</speaker>
+               <p>Arte thou bounde to obſerue theſe preceptes, in thought, worde and deede.</p>
+            </sp>
+            <sp>
+               <speaker>Aunſwer.</speaker>
+               <p>
+                  <note n="d" place="margin">Ezec. 18. 10. Luke. 2. 10. Leuit. 18. 5. Math. 5. 28</note> Yea, and if I breake but one of them, in thought, worde or deede, once onely in all my lyfe: I ſhall be guilty of eternall death.</p>
+            </sp>
+            <sp>
+               <speaker>Demaund.</speaker>
+               <p>Doeſt thou keepe them?</p>
+            </sp>
+            <sp>
+               <speaker>Aunſwer.</speaker>
+               <p>
+                  <note n="b" place="margin">Rom. 1. 3 cap. 7.</note> No, nor no man verely.</p>
+            </sp>
+            <sp>
+               <speaker>Demaund.</speaker>
+               <p>Then thou graunteſt thy ſelfe, all men worthy of Gods diſpleaſure, and eternall dampnation?</p>
+            </sp>
+            <sp>
+               <speaker>Aunſwer.</speaker>
+               <p>
+                  <note n="f" place="margin">Rom. 1. 18 cap. 2. 8. Deut. 27. 1. Cor. 6. 9. Mat. 25. 41</note> Yea, verely, I feele Gods wrath, and dampnation, to be my reward.</p>
+            </sp>
+            <sp>
+               <speaker>Demaund.</speaker>
+               <p>Howe ſhalte thou eſcape Gods
+<pb facs="tcp:180931:6" rendition="simple:additions"/> wrath, and this dampnation?</p>
+            </sp>
+            <sp>
+               <speaker>Aunſwer.</speaker>
+               <p>Onely by Ieſus Chriſte.</p>
+            </sp>
+            <sp>
+               <speaker>Demaund.</speaker>
+               <p>Howe ſhall he ſaue thee?</p>
+            </sp>
+            <sp>
+               <speaker>Aunſwer.</speaker>
+               <p>Becauſe he being <note n="d" place="margin">Iohn. 10. 30. cap. 14. 28.</note> God, and ma<g ref="char:cmbAbbrStroke">̄</g>, hath <note n="e" place="margin">E<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>a. 53. Math. 8. 17</note> ſuffered all the puniſhment due for my ſinnes, and <note n="f" place="margin">Ro. 10. 40</note> hath fulfyl<g ref="char:EOLhyphen"/>led the lawe.</p>
+            </sp>
+            <sp>
+               <speaker>Demaund.</speaker>
+               <p>Arte thou ſo freelye redeemed by Chriſte, that thou needeſt do Sa<g ref="char:EOLhyphen"/>crifyſing Prieſt, or ony other me<g ref="char:EOLhyphen"/>rite, or meanes, to helpe thee to ſaluation?</p>
+            </sp>
+            <sp>
+               <speaker>Aunſwer.</speaker>
+               <p>Yea, verelie, for <note n="e" place="margin">Ro. 4. 25. cap. 7. 24. cap. 5. 1. cap. 8. 2.</note> Chriſte was de<g ref="char:EOLhyphen"/>lyuered for my ſynne, and roſe a<g ref="char:EOLhyphen"/>gaine for my iuſtificacion: and hath <note n="f" place="margin">Ro. 3. 24 1. Pet. 2. 24 1. Ioh. 1. 7.</note> freely payde my raunſome to his Father.</p>
+            </sp>
+            <sp>
+               <speaker>Demaund.</speaker>
+               <p>Shall all men be ſaued by Chriſte?</p>
+            </sp>
+            <sp>
+               <pb facs="tcp:180931:7" rendition="simple:additions"/>
+               <speaker>Aunſwer.</speaker>
+               <p>No, <note n="c" place="margin">Ioh. 8. 24 31. et. c. <abbr>vſ</abbr>. cap. 15. 5. Rom. 6. 5. Hed. 3. 14.</note> none but ſuch as beleeue effectuallie in him, and lyue theraf<g ref="char:EOLhyphen"/>ter.</p>
+            </sp>
+            <sp>
+               <speaker>Demaund.</speaker>
+               <p>Who beleeueth thus in him?</p>
+            </sp>
+            <sp>
+               <speaker>Aunſwer.</speaker>
+               <p>They <note n="d" place="margin">
+                     <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>. Ioh. 2. 12. cap. 3. 2.</note> onely that aſſure then ſelues, that all his ſufferinges was for them, and ſo trauell <note n="a" place="margin">1. Ioh. 3. 3.</note> mortify<g ref="char:EOLhyphen"/>cation of the fleſh.</p>
+            </sp>
+            <sp>
+               <speaker>Demaund.</speaker>
+               <p>Who worketh in thee, this beleefe, and this mortifycation?</p>
+            </sp>
+            <sp>
+               <speaker>Aunſwer.</speaker>
+               <p>The holy ghoſt doth work it me, by <note n="b" place="margin">Ioh. 1<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>. 3 I<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>. 1. 18. cap. <hi>c.</hi> 6. Rom. 10. 17 Pſal. 19. 7. 1 Tim. 4. 16</note> hearing the worde preached.</p>
+            </sp>
+            <sp>
+               <speaker>Demaund.</speaker>
+               <p>Maye euery one that beleeueth ef<g ref="char:EOLhyphen"/>fectually, and trauell to mortifie <note place="margin">A <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>raunce of ſaluati<g ref="char:EOLhyphen"/>on.</note> the fleſhe, by the helpe of the ſpy<g ref="char:EOLhyphen"/>rite: aſſure them ſelues of ſaluati<g ref="char:EOLhyphen"/>on.</p>
+            </sp>
+            <sp>
+               <speaker>Aunſwer.</speaker>
+               <pb facs="tcp:180931:7" rendition="simple:additions"/>
+               <p> Yea, verelie, for Saint Paule ſayth, <note n="c" place="margin">Rom. 8. 1. 2. et. 14. <abbr>v</abbr>, Ro. 5. 1. etc. 1. Iohn. 3. 2. 1. Cor. 13. 5 Iohn. 5. 24 et. 26. <abbr>vſ</abbr>. cap. 11. 25. cap. 8. 26.</note> there is no dampnation, to them that are in Chriſte Ieſus: Which walke not after the fleſhe, but after the ſpirite.</p>
+            </sp>
+            <sp>
+               <speaker>Demaund.</speaker>
+               <p>Maye euerie man that trauell, not mortifycation of the fleſhe, but ly<g ref="char:EOLhyphen"/>ueth in fylthy ſinne: aſſure him ſelfe of ſaluation?</p>
+            </sp>
+            <sp>
+               <speaker>Aunſwer.</speaker>
+               <p>No not ſo. For he is the <note n="e" place="margin">Phi. 3. 18 Reue. 3. 9. 1. Cor. 6. Math. 25.</note> enimie of Chriſte: and doth <note n="f" place="margin">Heb. <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>. 6.</note> crucifie the ſonne of God. &amp;c.</p>
+            </sp>
+            <sp>
+               <speaker>Demaund.</speaker>
+               <p>That we maye the better vnder<g ref="char:EOLhyphen"/>ſtande, that thou art the chylde of God, thorowe fayth in Ieſus Chriſte: declare the effect of thy beleefe?</p>
+            </sp>
+            <sp>
+               <speaker>Aunſwer.</speaker>
+               <p>I beleeue in God the father al<g ref="char:EOLhyphen"/>mightie, maker of heauen &amp; earth. And in Ieſus Chriſte, his onely
+<pb facs="tcp:180931:8" rendition="simple:additions"/> Sonne our Lord: which was con<g ref="char:EOLhyphen"/>ceyued by the holy ghoſte, borne of the virgin Marie. He ſuffered vn<g ref="char:EOLhyphen"/>der Pontius Pilate, was crucify<g ref="char:EOLhyphen"/>ed, dead and buried, hee deſcended into hell, and the thirde day he roſe againe from death. He aſcended into Heauen, and ſytteth on the ryght hande of God the Father al<g ref="char:EOLhyphen"/>mightie. From thence ſhall he come to iudge bothe the quicke and the dead. I beleeue in the holy Ghoſt. The holy Catholike Church. The Communion of Saints. The for<g ref="char:EOLhyphen"/>geueneſſe of ſinnes. The reſurrec<g ref="char:EOLhyphen"/>tion of the body. And the lyfe euer<g ref="char:EOLhyphen"/>laſting. So be it.</p>
+            </sp>
+            <sp>
+               <speaker>Demaund.</speaker>
+               <p>Is thy fayth perfect aſſone as thou beleeueſt?</p>
+            </sp>
+            <sp>
+               <speaker>Aunſwer.</speaker>
+               <p>Not ſo: but increaſeth by <note n="g" place="margin">Rom. 10. 17. cap. 1. 16. Ephe. 4. 7.</note> hea<g ref="char:EOLunhyphen"/>ring the word of God: vſing <note n="h" place="margin">Lu. 21. 36.</note> prai<g ref="char:EOLhyphen"/>ers, and <note n="i" place="margin">1. Cor. 11. 26.</note> Sacraments.</p>
+            </sp>
+            <sp>
+               <pb facs="tcp:180931:8" rendition="simple:additions"/>
+               <speaker>Demaund.</speaker>
+               <p>Thou ſayeſt, prayers is a helpe to increaſe thy fayth?</p>
+            </sp>
+            <sp>
+               <speaker>Aunſwer.</speaker>
+               <p>Yea, for it <note n="k" place="margin">Mat. 7. 11</note> aſſures me that I ſhal haue all thinges that I aſke for, in Chriſtes name, agreeing to his wyll.</p>
+            </sp>
+            <sp>
+               <speaker>Demaund.</speaker>
+               <p>What thinges mayſt thou pray for, agrreeing to the wyll of God?</p>
+            </sp>
+            <sp>
+               <speaker>Aunſwer.</speaker>
+               <p>For <note n="l" place="margin">Ioh. 16. 24. Iac. 5. 16.</note> ioye, and for the increaſe of loue, betweene all degrees: <note n="m" place="margin">Iac. 1. 5. 3. Reg. 3.</note> for heauenly wiſedome: for the <note n="n" place="margin">Luk. 11. 13</note> holye ghoſte. To be delyuered from euyll in the tyme of <note n="o" place="margin">Math. 26</note> temptation. For to obtayne <note n="p" place="margin">Luk. 21. 36. <abbr>vſ</abbr>.</note> mercie of our heauenlye Father.</p>
+            </sp>
+            <sp>
+               <speaker>Demaund.</speaker>
+               <p>Is God content, and pleaſed with euerie mans prayer?</p>
+            </sp>
+            <sp>
+               <speaker>Aunſwer.</speaker>
+               <p>No: for if we praye to him, not a<g ref="char:EOLhyphen"/>greeing
+<pb facs="tcp:180931:9"/> to his wyll, hee wyll <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>o<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> heare vs.</p>
+            </sp>
+            <sp>
+               <speaker>Demaund.</speaker>
+               <p>What thinges are not agreeing to his wyll, that we maye not praye for?</p>
+            </sp>
+            <sp>
+               <speaker>Aunſwer.</speaker>
+               <p>To praye to them that bee dead for any thing: as to the virgin Ma<g ref="char:EOLhyphen"/>rie, or any other, for any thing, is not agreeing to his wyll. For wee haue but onely <note n="q" place="margin">1. Ioh. 2. 1 1. Tim. 2. 5 Iohn. 14. 6. Mat. 11. 28</note> one mediatour, to praye for vs, and that is Chriſt.</p>
+            </sp>
+            <sp>
+               <speaker>Demaund.</speaker>
+               <p>Doth them that bee deafe, heare when they be prayed vnto?</p>
+            </sp>
+            <sp>
+               <speaker>Aunſwer.</speaker>
+               <p>No, for the Prophet <hi>Eſay</hi> ſayeth vnto the Lorde: thou <note n="r" place="margin">1. Eſa. 6;. 6</note> art our Fa<g ref="char:EOLhyphen"/>ther, for <hi>Abraham</hi> knoweth vs not, neyther is Iſraell acquainted with vs.</p>
+            </sp>
+            <sp>
+               <speaker>Demaund.</speaker>
+               <p>Maye wee praye for them that
+<pb facs="tcp:180931:9" rendition="simple:additions"/> be dead?</p>
+            </sp>
+            <sp>
+               <speaker>Aunſwer.</speaker>
+               <p>No, for it is not agreeing to y<hi rend="sup">e</hi> wil of God. For <note n="ſ" place="margin">1. Ioh. 5. 14. 2. Re. 12. 22. Eccle. 17. 18 Luke. 16. 26</note> Saint Iohn ſayth, there is a ſinne vnto death, I ſaye not, that thou ſhouldeſt praye for it.</p>
+            </sp>
+            <sp>
+               <speaker>Demaund.</speaker>
+               <p>What ſayeſt thou of them that liue in fylthie ſinnes, are their prayers heard?</p>
+            </sp>
+            <sp>
+               <speaker>Aunſwer.</speaker>
+               <p>No, for <note n="t" place="margin">1. Reg. 25 22. Pro. 28. 9. Iohn. 4. 7.</note> diſobedience, and wic<g ref="char:EOLhyphen"/>ked <note n="u" place="margin">Eſa. 59. 1 Pſa. 66. 16. Iere. 7. 9.</note> ſinnes, is the cauſe that God wyll not heare our prayers.</p>
+            </sp>
+            <sp>
+               <speaker>Demaund.</speaker>
+               <p>What is prayer?</p>
+            </sp>
+            <sp>
+               <speaker>Aunſwer.</speaker>
+               <p>It is a peticion made vnto God, for thinges that we haue neede of, with the affection of the harte.</p>
+            </sp>
+            <sp>
+               <speaker>Demaund.</speaker>
+               <p>Howe many kynde of prayers be there?</p>
+            </sp>
+            <sp>
+               <pb facs="tcp:180931:10" rendition="simple:additions"/>
+               <speaker>Aunſwer.</speaker>
+               <p>
+                  <note n="v" place="margin">Pſa. 50. 15.</note> Two: Inuocation, and prayer.</p>
+            </sp>
+            <sp>
+               <speaker>Demaund.</speaker>
+               <p>What is Inuocation?</p>
+            </sp>
+            <sp>
+               <speaker>Aunſwer.</speaker>
+               <p>It is, wherby God is called vpon in any thing.</p>
+            </sp>
+            <sp>
+               <speaker>Demaund.</speaker>
+               <p>Howe many thinges be requyred in prayer?</p>
+            </sp>
+            <sp>
+               <speaker>Aunſwer.</speaker>
+               <p>Fowre. The commaundement of God. The promiſe: Fayth, and the thinges deſired.</p>
+            </sp>
+            <sp>
+               <speaker>Demaund.</speaker>
+               <p>What is the fyrſt? <milestone type="tcpmilestone" unit="unspecified" n="1"/>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Aunſwer.</speaker>
+               <p>The commaundement of GOD which <note n="x" place="margin">Pſal. 50. Mat. 6. et. 7 Luke. 18.</note> commaundeth vs to pray, and call vpon him: and as it is ſinne to ſweare, ſo it is <note n="y" place="margin">1. Reg. 12 23.</note> ſynne not to praye.</p>
+            </sp>
+            <sp>
+               <speaker>Demaund.</speaker>
+               <p>What is the ſeconde? <milestone type="tcpmilestone" unit="unspecified" n="2"/>
+               </p>
+            </sp>
+            <sp>
+               <pb facs="tcp:180931:10" rendition="simple:additions"/>
+               <speaker>Aunſwer.</speaker>
+               <p>The promiſe of God, which cer<g ref="char:EOLhyphen"/>tifyeth vs y<hi rend="sup">t</hi> our prayers are heard in Chriſtes name. For Chriſte ſayth, <note n="z" place="margin">Iohn. 16. 23. Math. 7. Luke. 11. 13 Pſa. 50. 15. Acts. 12. 5.</note> whatſoeuer ye ſhal aſke the Father in my name, he wyll geue it you.</p>
+            </sp>
+            <sp>
+               <speaker>Demaund.</speaker>
+               <p>What is the thirde? <milestone type="tcpmilestone" unit="unspecified" n="3"/>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Aunſwer.</speaker>
+               <p>Faith, for we muſt beleeue that our ſinnes are forgeuen vs, when we pray with penſiue harts. <note n="a" place="margin">Mark. <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>1. 24. Iac. 1. 5. Math. 8. 2.</note> For Chriſte ſayth, what thing ſo euer when ye praye, beleeue that ye re<g ref="char:EOLhyphen"/>ceyue them, and ye ſhal haue them.</p>
+            </sp>
+            <sp>
+               <speaker>Demaund.</speaker>
+               <p>What is the fowrth? <milestone type="tcpmilestone" unit="unspecified" n="4"/>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Aunſwer.</speaker>
+               <p>The thing that is aſked?</p>
+            </sp>
+            <sp>
+               <speaker>Demaund.</speaker>
+               <p>What things muſt we aſke?</p>
+            </sp>
+            <sp>
+               <speaker>Aunſwer.</speaker>
+               <p>For heauenly wiſedome from <note place="margin">b. Iac. 1. Luk. 11. 3. Reg. 3.</note>
+                  <pb facs="tcp:180931:11" rendition="simple:additions"/> aboue, and we ſhall haue it.</p>
+               <p>
+                  <note n="c" place="margin">Math. 26 Pſal. 50. 15.</note> In the tyme of trouble, ſeeke for helpe from aboue, and it ſhall be de<g ref="char:EOLhyphen"/>lyuered.</p>
+               <p>
+                  <note n="d" place="margin">Math. 11. 28.</note> If any man be werie of the bur<g ref="char:EOLhyphen"/>den of ſinne, let him aſke for mercie, and he ſhall haue it.</p>
+               <p>Doth any man lacke <note n="e" place="margin">Iohn. 16. 23. Ezech. 18.</note> loue, from a pure hart toward God, and man, let him praye for it, and God wyll geue it him. Or whatſoeuer we haue neede of, as we are taught in the Lordes prayer.</p>
+            </sp>
+            <sp>
+               <speaker>Demaund.</speaker>
+               <p>What is the Lordes prayer?</p>
+            </sp>
+            <sp>
+               <speaker>Aunſwer.</speaker>
+               <p>It is a briefe forme of praying, which Chriſt taught his diſciples, and all faithfull men: ſaying. When ye praye, ſay thus.</p>
+               <p>OVr father which art in heauen, <note place="margin">Math. 6.</note> Halowed be thy name. Thy kingdome come. Thy wyll be done in earth as it is in heauen. Geue vs
+<pb facs="tcp:180931:11" rendition="simple:additions"/> this day our dayly bread. And for<g ref="char:EOLhyphen"/>geue vs our treſpaſſes, as we for<g ref="char:EOLhyphen"/>geue the<g ref="char:cmbAbbrStroke">̄</g> that treſpaſſe againſt vs. And leade vs not into temptation. But delyuer vs from euyll. For thine is the kingdome, the power &amp; glorie, nowe and for euer. Amen.</p>
+            </sp>
+            <sp>
+               <speaker>Demaund.</speaker>
+               <p>How many Sacraments be there?</p>
+            </sp>
+            <sp>
+               <speaker>Aunſwer.</speaker>
+               <p>Two, the Lordes Supper, and Baptiſme.</p>
+            </sp>
+            <sp>
+               <speaker>Demaund.</speaker>
+               <p>What is a Sacrame<gap reason="illegible" resp="#MURP" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>
+                  <g ref="char:punc">▪</g>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Aunſwer.</speaker>
+               <p>It is a holy ſigne inſtituted of God, to confyrme my fayth, and to ſeale in my harte, the promiſes of Gods mercie towardes mee, for the for<g ref="char:EOLhyphen"/>geueneſſe of my ſinnes, and ſaluati<g ref="char:EOLhyphen"/>on in Chriſte.</p>
+            </sp>
+            <sp>
+               <speaker>Demaund.</speaker>
+               <p>W<gap reason="illegible" resp="#KEYERS" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap> are Sacramentes in gene<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#MURP" extent="4 letters">
+                     <desc>••••</desc>
+                  </gap>
+                  <g ref="char:punc">▪</g>
+               </p>
+            </sp>
+            <sp>
+               <pb facs="tcp:180931:12" rendition="simple:additions"/>
+               <speaker>Aunſwer.</speaker>
+               <p>They are viſible ſignes, whiche ſygnifie vnto vs, both grace and coniunction with Chriſte, and ſeale vnto vs the promiſes of ſaluation, <note n="f" place="margin">Gen. 17. 4 et. 10. <abbr>vſ</abbr>.</note> for God delyuered vnto vs ſacra<g ref="char:EOLhyphen"/>mentes, as ſeales of his promiſes, and when we haue receyued them, <note n="g" place="margin">Gal. 3. 27</note> they beare wytneſſe that we be<g ref="char:EOLhyphen"/>long vnto Chriſte.</p>
+            </sp>
+            <sp>
+               <speaker>Demaund.</speaker>
+               <p>Who gaue the ſacraments?</p>
+            </sp>
+            <sp>
+               <speaker>Aunſwer.</speaker>
+               <p>The author and geuer of the ſa<g ref="char:EOLhyphen"/>cramentes, is God the <note n="m" place="margin">Gen. 27. 10.</note> Father, <note n="n" place="margin">Mar. 16. Math. 26.</note> and his ſonne Ieſus Chriſte our Lorde.</p>
+            </sp>
+            <sp>
+               <speaker>Demaund.</speaker>
+               <p>Are there ſeuen ſacramentes, as the Biſhop of Rome affyrmeth?</p>
+            </sp>
+            <sp>
+               <speaker>Aunſwer.</speaker>
+               <p>No, but two, as we haue ſayde before: for the other ſacramentes, can be no ſacraments, becauſe they
+<pb facs="tcp:180931:12" rendition="simple:additions"/> want the manifeſt woordes of pro<g ref="char:EOLhyphen"/>miſe, which ſhoulde by a viſyble ſygne be ſealed, and becauſe there is no commaundement geuen of God, wherby we are bounde to ob<g ref="char:EOLhyphen"/>ſerue them as ſacraments.</p>
+            </sp>
+            <sp>
+               <speaker>Demaund.</speaker>
+               <p>What do you come to receyue?</p>
+            </sp>
+            <sp>
+               <speaker>Aunſwer.</speaker>
+               <p>The holy ſacrament of the body, and blood of Chriſte.</p>
+            </sp>
+            <sp>
+               <speaker>Demaund.</speaker>
+               <p>Why doeſt thou come to receyue it?</p>
+            </sp>
+            <sp>
+               <speaker>Aunſwer.</speaker>
+               <p>Becauſe God hath commaunded mee, <note n="e" place="margin">Lu. 22. 19 1. Cor. 11.</note> ſaying: doo this in remem<g ref="char:EOLhyphen"/>brance of mee.</p>
+            </sp>
+            <sp>
+               <speaker>Demaund.</speaker>
+               <p>Of howe many partes, conſiſteth a ſacrament?</p>
+            </sp>
+            <sp>
+               <speaker>Aunſwer.</speaker>
+               <pb facs="tcp:180931:13" rendition="simple:additions"/>
+               <p> Of two partes. The outwarde Element, being a viſible ſigne: and the inuiſible grace.</p>
+            </sp>
+            <sp>
+               <speaker>Demaund.</speaker>
+               <p>What is the outwarde ſigne?</p>
+            </sp>
+            <sp>
+               <speaker>Aunſwer.</speaker>
+               <p>
+                  <note n="f" place="margin">Math. 26</note> Bread and Wine, which the Lorde hath commaunded to be re<g ref="char:EOLhyphen"/>ceyued.</p>
+            </sp>
+            <sp>
+               <speaker>Demaund.</speaker>
+               <p>What is the heauenly part?</p>
+            </sp>
+            <sp>
+               <speaker>Aunſwer.</speaker>
+               <p>It is the body and blood of Chriſt which was broken for mee, and <note n="e" place="margin">Math. 27 Iohn. 19. 34.</note> ſhedde for mee, which is eaten and dronken of the faythfull, ſpiritual<g ref="char:EOLhyphen"/>lie.</p>
+            </sp>
+            <sp>
+               <speaker>Demaund.</speaker>
+               <p>Is the Breade and Wine, chaun<g ref="char:EOLhyphen"/>ged into the bodye and blood of Chriſte?</p>
+            </sp>
+            <sp>
+               <speaker>Aunſwer.</speaker>
+               <p>No, for then the nature of the Sacrament were deſtroyed. For
+<pb facs="tcp:180931:13" rendition="simple:additions"/> God ordayned it to be receyued in the <note n="e" place="margin">Math. 29 Luke. 22. Augu. To eate Chriſt, is to be re<g ref="char:EOLhyphen"/>freſhed, and to drink him is to lyue.</note> remembraunce of his death.</p>
+               <p>The breade ſacramentally, is the Lordes body, and ſo lykewiſe the cuppe.</p>
+               <p>The cuppe naturallie, is a cuppe of wine, but ſacramentally, it is the cuppe of the Lordes blood &amp; newe Teſtament.</p>
+               <p>Chriſte called it his blood, not that his blood ſhoulde be really in it, but that it ſhould be the Sacra<g ref="char:EOLhyphen"/>ment of his blood,</p>
+            </sp>
+            <sp>
+               <speaker>Demaund.</speaker>
+               <p>Was this Supper ordayned of Chriſte, to be offered as a Sacri<g ref="char:EOLhyphen"/>fice to God the Father for remiſ<g ref="char:EOLhyphen"/>ſion of ſinnes?</p>
+            </sp>
+            <sp>
+               <speaker>Aunſwer.</speaker>
+               <p>No truly, for when Chriſte dyed vpon the Croſſe, he <note n="f" place="margin">Heb. 7. 27 cap. 9. 21. et. c. cap. 10. 10. 14. 18. et. 26. <abbr>vſ</abbr>.</note> once fullye made, that onely euerlaſting ſacri<g ref="char:EOLhyphen"/>fice, for our ſaluation for euer.</p>
+               <p>The bread was delyuered to the
+<pb facs="tcp:180931:14" rendition="simple:additions"/> Diſciples: as the ſacrament of the Lordes body, but the verie body it ſelfe, ſhoulde be geuen vpon the croſſe, not to the Diſciples, but to God the father for the Diſciples.</p>
+            </sp>
+            <sp>
+               <speaker>Demaund.</speaker>
+               <p>What is the Lordes Supper?</p>
+            </sp>
+            <sp>
+               <speaker>Aunſwer.</speaker>
+               <p>It is the ſacrament of my redem<g ref="char:EOLhyphen"/>tion, by the death of Chriſt.</p>
+            </sp>
+            <sp>
+               <speaker>Demaund.</speaker>
+               <p>What thinkeſt thou of the Lordes Supper?</p>
+            </sp>
+            <sp>
+               <speaker>Aunſwer.</speaker>
+               <p>I beleeue that as my bodye is nouriſhed with breade, and wyne, there broken, and powred for thee, that euen ſo my ſoule is nouriſhed ſpiritually by Chriſtes body, bro<g ref="char:EOLhyphen"/>ken, and his bloodſhed; for the re<g ref="char:EOLhyphen"/>miſſion of my ſynnes.</p>
+            </sp>
+            <sp>
+               <speaker>Demaund.</speaker>
+               <pb facs="tcp:180931:14"/>
+               <p>
+                  <gap reason="missing" extent="2 pages">
+                     <desc>〈2 pages missing〉</desc>
+                  </gap>
+                  <pb facs="tcp:180931:15"/>
+                  <pb facs="tcp:180931:15" rendition="simple:additions"/> Wherfore it is our duetie to <note n="a" place="margin">1. Cor. 10 16. Math. 26.</note> geue thankes at the Lords ſupper. And the Lorde gaue thankes therat.</p>
+               <p>Thirdlie, it putteth vs in reme<g ref="char:cmbAbbrStroke">̄</g>
+                  <g ref="char:EOLhyphen"/>braunce, that as the bread which we eate, is made of many graines, one loafe, and the grapes being many, preſſed together, is made one wine: ſo we being many, are <note n="e" place="margin">Rom. 11. 4. et. c. 1. Cor. 1<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>. 17 cap 12. 27.</note> one bodye, whereof Chriſte is the heade.</p>
+               <p>Seeing then that, we are all one body, we ought to helpe one ano<g ref="char:EOLhyphen"/>ther, and to <note n="c" place="margin">Rom. 1<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>. 2 I<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>n. 3. 17. b. 1. Cor. <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>3 <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>. 2. et. c.</note> loue one another.</p>
+            </sp>
+            <sp>
+               <speaker>Demaund.</speaker>
+               <p>What is our duetie to doo, that we maye come to the Lordes ſupper rightlie?</p>
+            </sp>
+            <sp>
+               <speaker>Aunſwer.</speaker>
+               <p>To examine our ſelues, whether wee be true members of Chriſte, depending our <note n="f" place="margin">2. Cor. 13. 5. Hebr. 11. 4.</note> faith wholie vpon him, as our <note n="g" place="margin">Act. 4. 12 Math. 1. 2<g ref="char:punc">▪</g>
+                  </note> only ſauiour.</p>
+               <p>Secondly, to examine our ſelues,
+<pb facs="tcp:180931:16" rendition="simple:additions"/> whether wee bee in loue one with another, <note n="i" place="margin">Mat. 5. 23 cap. 18.</note> and forgeue one ano<g ref="char:EOLhyphen"/>ther.</p>
+               <p>Thirdlie, we muſt examine our ſelues, what ſinnes we haue com<g ref="char:EOLhyphen"/>mitted, and repent, that wee maye with a cleare <note n="a" place="margin">Sap. 17. Eccle. 18. Pſa. 26. 6.</note> conſcience, come to the Lordes Table.</p>
+            </sp>
+            <sp>
+               <speaker>Demaund.</speaker>
+               <p>What is Baptiſme?</p>
+            </sp>
+            <sp>
+               <speaker>Aunſwer.</speaker>
+               <p>Baptiſme, is the Sacrament of our <note n="c" place="margin">Tit. 3. 5.</note> regeneration: cleanſing ad<g ref="char:EOLhyphen"/>miſſion, ſanctifycation, incorpora<g ref="char:EOLhyphen"/>tion, admiſſion, wherby they which do <note n="d" place="margin">Act. 2. 38</note> repent, and profeſſe the fayth, and Religion of Chriſte, are incor<g ref="char:EOLhyphen"/>porated, &amp; <note n="c" place="margin">Gal. 3. 27</note> conſigned vp to Chriſt and his Church.</p>
+            </sp>
+            <sp>
+               <speaker>Demaund.</speaker>
+               <p>Who dyd inſtitute Baptiſme?</p>
+            </sp>
+            <sp>
+               <speaker>Aunſwer.</speaker>
+               <p>
+                  <note n="b" place="margin">Mat. 28. Mark. 16.</note> Our ſauiour Chriſte.</p>
+            </sp>
+            <sp>
+               <pb facs="tcp:180931:16" rendition="simple:additions"/>
+               <speaker>Demaund.</speaker>
+               <p>What doth baptiſme ſignifie?</p>
+            </sp>
+            <sp>
+               <speaker>Aunſwer.</speaker>
+               <p>It declareth the <note n="p" place="margin">1. Pet. 1. 19. Iohn. 3. 5. Act. 2. 38.</note> waſhing away of my ſinnes by Chriſtes blood, and my new byrth.</p>
+            </sp>
+            <sp>
+               <speaker>Demaund.</speaker>
+               <p>Can none aſſure them ſelues of ſal<g ref="char:EOLhyphen"/>uation, vnleſſe they be Baptiſed?</p>
+            </sp>
+            <sp>
+               <speaker>Aunſwer.</speaker>
+               <p>I ſaye not ſo, Gods grace is not tyed to externe Elementes, we be<g ref="char:EOLhyphen"/>leeue his <note n="b" place="margin">Gen. 17. c Rom. 4. 11</note> promiſe, and therefore doubte not, but the chyldren of the faythfull are ſaued, although they paſſe awaye in their mothers wombe, for they are holye by ver<g ref="char:EOLhyphen"/>tue of the <note n="a" place="margin">Ge. 17. 30</note> couenaunt. And are <note n="g" place="margin">Ier. 1. 5. 1. Cor. 7. 14</note> ſanctifyed in their mothers wombe. For example <note n="a" place="margin">Gene. 25 23. Rom. 9. 9. et. 11. <abbr>vſ</abbr>.</note> 
+                  <hi>Iſaac,</hi> which was borne the chylde of God, by vertue of the promiſe. Whereby it followeth that the promiſe is the fountayne of ſaluation, and not
+<pb facs="tcp:180931:17" rendition="simple:additions"/> the ſacrament. Another example, the <note n="d" place="margin">L<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>. 2<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>. 24</note> theefe that dyed with Chriſte aſked for mercie, and was ſaued: where was he baptiſed.</p>
+            </sp>
+            <sp>
+               <speaker>Demaund.</speaker>
+               <p>Is it in our wyll to be baptiſed, or not to be baptiſed?</p>
+            </sp>
+            <sp>
+               <speaker>Aunſwer.</speaker>
+               <p>We are <note n="e" place="margin">Math. 28 Mark. 16. Iohn. 3. 5.</note> commaunded of Chriſte to be baptiſed, and therfore he that maye be baptiſed, and wyll not, hee breaketh the commaundement of God, and is <note n="i" place="margin">Ge. 17. 14 Reu. 22. 19</note> curſed.</p>
+            </sp>
+            <sp>
+               <speaker>Demaund.</speaker>
+               <p>Maye one fall from grace, after he is baptiſed?</p>
+            </sp>
+            <sp>
+               <speaker>Aunſwer.</speaker>
+               <p>Yea verelie, for whoremongers, ſwearers, and other wicked liuers do fall from the <note n="f" place="margin">Gal. 5. 4. Tir. 1. 16.</note> grace, and as long as they remayne in ſinne, they are <note n="a" place="margin">Ep. 2. 12.</note> without God, and <note n="c" place="margin">Ioh. 15. 6</note> cutte of from the vine Chriſt, and can not be <note n="d" place="margin">1. Cor. 6. 9 Hebr. 10. 26 Math. 25.</note> ſa<g ref="char:EOLhyphen"/>ued, although they be baptiſed, vn<g ref="char:EOLhyphen"/>leſſe
+<pb facs="tcp:180931:17"/> they <note n="g" place="margin">Luk. 13. 4.</note> repent.</p>
+               <p>
+                  <note n="h" place="margin">1. Pet. 3. 21.</note> Saint Peter ſayth, Baptiſme taketh not awaye the fylth of the fleſh: But in that a good conſcience conſenting to God, by the reſurrec<g ref="char:EOLhyphen"/>tio<g ref="char:cmbAbbrStroke">̄</g> of Ieſus Chriſt. <note n="i" place="margin">1. Cor. 7. 9 Rom. 2. 25. Gal. 6, 15.</note> And S. Paule ſayth: circumciſion is nothing, and vncircumciſion is nothing, but the keeping of the co<g ref="char:cmbAbbrStroke">̄</g>maundements of God. So then, Baptiſme is no cauſe of our ſaluation. For example <note n="a" place="margin">Act. 8. 27.</note> Simon Magus, which was bap<g ref="char:EOLhyphen"/>tiſed, and yet remayned the chylde of the deuyll.</p>
+            </sp>
+            <sp>
+               <speaker>Demaund.</speaker>
+               <p>What deeſt thou promiſe, when thou art Baptiſed?</p>
+            </sp>
+            <sp>
+               <speaker>Aunſwer.</speaker>
+               <p>I promiſe to forſake the deuyll, the worlde, and the fleſh, and to bee Chriſtes ſeruaunt all the dayes of my lyfe.</p>
+            </sp>
+            <sp>
+               <speaker>Demaund.</speaker>
+               <p>Dyddeſt thou neuer breake thys
+<pb facs="tcp:180931:18"/> promiſe?</p>
+            </sp>
+            <sp>
+               <speaker>Aunſwer.</speaker>
+               <p>Yea, for if I ſweare, lye, ſteale, or doo any other thing, contracie to the wyll of God: I breake my pro<g ref="char:EOLhyphen"/>miſe made vnto God.</p>
+            </sp>
+            <sp>
+               <speaker>Demaund.</speaker>
+               <p>Whoſe ſeruaunt art thou, when thou haſt broken thy promiſe: the ſeruaunt of God?</p>
+            </sp>
+            <sp>
+               <speaker>Aunſwer.</speaker>
+               <p>No, verelie, for Chriſte ſayth, <note n="e" place="margin">Ioh. 8. 34. Rom. 6. 23. Math. 6. 24</note> he that committeth ſynne, is the ſer<g ref="char:EOLhyphen"/>uaunt of ſinne.</p>
+            </sp>
+            <sp>
+               <speaker>Demaund.</speaker>
+               <p>What is the rewarde of this ſer<g ref="char:EOLhyphen"/>uaunt, for breaking his promiſe made in Baptiſme?</p>
+            </sp>
+            <sp>
+               <speaker>Aunſwer.</speaker>
+               <p>
+                  <note n="ſ" place="margin">Rom. 6. 23 cap. 8. 6.</note> Dampnation, for Saint Pa<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> ſayth, the reward of ſinne, is death<g ref="char:punc">▪</g>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Demaund.</speaker>
+               <p>What is done of thee nowe, ſeeing thou haſt forſaken thy promiſe,
+<pb facs="tcp:180931:18"/> 
+                  <gap reason="illegible" resp="#KEYERS" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap>, to lyue ſtyll in that ſtate of dampnation?</p>
+            </sp>
+            <sp>
+               <speaker>Aunſwer.</speaker>
+               <p>No, but to remember my pro<g ref="char:EOLhyphen"/>miſe, and returne vnto God for the remiſſion of my ſinnes, and for his holy ſpirite, to leade mee into newneſſe of lyfe.</p>
+            </sp>
+            <sp>
+               <speaker>Demaund.</speaker>
+               <p>Doeſt thou thinke that God wyll receyue thee, if thou repent, ſeeing thou haſt broken thy promiſe in Baptiſme, and lyued in fylthie ſinne many yeares, ſeruing <note n="e" place="margin">1. Ioh. 3. 8 et. 10. <abbr>vſ</abbr>.</note> the deuyll. &amp;c.</p>
+            </sp>
+            <sp>
+               <speaker>Aunſwer.</speaker>
+               <p>Yea, trulie, for Chriſte ſayth, <note n="b" place="margin">Luk. 5. 32</note> I came to call the ſynners to repen<g ref="char:EOLhyphen"/>taunce: I am a ſynner, and if I re<g ref="char:EOLhyphen"/>pent, and forſake ſinne, I beleeue, I am become his <note n="c" place="margin">Luk. 15. 21. et. c.</note> ſeruaunt againe, and all my ſinnes forgeuen me, ac<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>rding to his <note n="b" place="margin">Math. 11 28.</note> promiſe.</p>
+            </sp>
+            <sp>
+               <speaker>Demaund.</speaker>
+               <pb facs="tcp:180931:19"/>
+               <p> What difference is <gap reason="illegible" resp="#KEYERS" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> 
+                  <gap reason="illegible" resp="#MURP" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>
+                  <g ref="char:EOLunhyphen"/>crament, and a ſacrifi<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>
+                  <g ref="char:punc">▪</g>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Aunſwer.</speaker>
+               <p>A Sacrament is a ſigne, or <gap reason="illegible" resp="#KEYERS" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> of the promiſe of God, that he ge<g ref="char:EOLhyphen"/>ueth vnto vs a certaine thing. So was circumciſion, a certaine token whereby he woulde <hi>c</hi> receyue the <note place="margin">Ge. 17. 10</note> circumciſed. Baptiſme is a token whereby God worketh with vs, and <hi>b</hi> receyue vs vnto grace. <note place="margin">Gal. 3. 27</note>
+               </p>
+               <p>
+                  <hi>Sacrificium,</hi> is a worke of ours, which we geue vnto God. Wherby we <hi>c</hi> honour him. <note place="margin">Pſal. 50.</note>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Demaund.</speaker>
+               <p>Howe many kindes of Sacrifices be there?</p>
+            </sp>
+            <sp>
+               <speaker>Aunſwer.</speaker>
+               <p>Two, the one is called <hi>Propitia<g ref="char:EOLhyphen"/>torium,</hi> that is, which obtayneth mercie, and appeaſeth the wrath of God.</p>
+               <pb facs="tcp:180931:19"/>
+               <p> The other is called, <hi>Euchariſti<g ref="char:EOLhyphen"/>cum,</hi> that is to ſaye, a thankeſge<g ref="char:EOLhyphen"/>uing.</p>
+            </sp>
+            <sp>
+               <speaker>Demaund.</speaker>
+               <p>What is <hi>Sacrificium Propitiato<g ref="char:EOLhyphen"/>rium.</hi>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Aunſwer.</speaker>
+               <p>It is a worke, <note n="b" place="margin">Eſa. Math. 8.</note> deſeruing remiſ<g ref="char:EOLhyphen"/>ſion of ſinnes, &amp; deliueraunce from euerlaſting puniſhment: and there is onelie <note n="a" place="margin">Hebr. 9. et. 10.</note> one Sacrifice, which de<g ref="char:EOLhyphen"/>ſerueth remiſſion of ſinnes: that is to ſaye, the death and paſſion of Chriſte.</p>
+            </sp>
+            <sp>
+               <speaker>Demaund.</speaker>
+               <p>What is the Sacrifyce of thankſ<g ref="char:EOLhyphen"/>geuing.</p>
+            </sp>
+            <sp>
+               <speaker>Aunſwer.</speaker>
+               <p>
+                  <note n="h" place="margin">Pſa. 50. et. 23. <abbr>vſ</abbr>. 1. Pet. 2. 5 Hebr. 13. 1.</note> It is a thankeſgeuing vnto God the Father, thorow Ieſus Chriſte, the remiſſion of our ſynnes, and for all other benefytes receyued of
+<pb facs="tcp:180931:20" rendition="simple:additions"/> him. Therefore, whether we eate <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>r drinke, or whatſoeuer we doo, let vs prayſe God, thorowe Ie<g ref="char:EOLhyphen"/>ſus Chriſte our Lorde, and ſaye. Amen.</p>
+            </sp>
+            <trailer>FINIS.</trailer>
+            <closer>
+               <dateline>
+                  <date>1579.</date>
+               </dateline>
+            </closer>
+            <pb facs="tcp:180931:20"/>
+         </div>
+      </body>
+   </text>
+</TEI>
